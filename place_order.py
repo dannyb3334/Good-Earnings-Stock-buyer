@@ -1,4 +1,5 @@
 '''
+******SCRIPT SETUP******
 --- pipenv shell
 --- pipenv install alpaca_trade_api
 
@@ -10,9 +11,9 @@ import alpaca_trade_api as trade_api
 from scrapper import *
 
 # authentication and connection details
-api_key = 'PKEUXZLRW917250UT5GO'
-api_secret = '4VArCw0af3A1PfcvQhbqy5VUWeJltmPw7Ic97Ivx'
-base_url = 'https://paper-api.alpaca.markets'
+api_key = 'YOUR API KEY'
+api_secret = 'YOUR SECRET KEY'
+base_url = 'https://paper-api.alpaca.markets' #PAPER TRADING
 i = 0
 # instantiate REST API
 try: 
