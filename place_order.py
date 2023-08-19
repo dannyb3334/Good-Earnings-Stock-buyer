@@ -1,12 +1,4 @@
-'''
-******SCRIPT SETUP******
---- pipenv shell
---- pipenv install alpaca_trade_api
 
-'''
-'''
-  async before functions to run at the same time
-'''
 import alpaca_trade_api as trade_api
 from scrapper import *
 
